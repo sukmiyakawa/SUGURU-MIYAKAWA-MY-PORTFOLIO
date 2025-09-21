@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SUGURU MIYAKAWA MY PORTFOLIO</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Zen+Maru+Gothic&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/destyle.css" />
+    <link rel="stylesheet" href="assets/css/common.css" />
+    <link rel="stylesheet" href="assets/css/es-batting(singleBase).css" />
+    <link rel="stylesheet" href="assets/css/address.css" />
+
+  </head>
+  <body>
+    <header>
+      <div class="headerMain">
+        <h1>Suguru's Portfolio</h1>
+        <div class="header_menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+      <nav class="menuNav">
+        <a href="index.html">TOP</a>
+        <a href="index.html#profile">PROFILE</a>
+        <a href="index.html#works">WORKS</a>
+        <a href="contact.html">CONTACT</a>
+      </nav>
+    </header>
+    <main>
+      <div id="single">
+        <h2>
+          <span class="h2_20px">【自主制作】</span><br />住所検索アプリ
+        </h2>
+        <div class="worksBtn">
+          <a href="https://address-app-bay.vercel.app/" class="btn">
+            <div class="btn_txt">
+              <p>Webページ</p>
+            </div>
+            <img src="assets/img/common/arrow.svg" alt="" />
+          </a>
+          <a href="https://github.com/sukmiyakawa/address-app" class="btn">
+            <p>Github</p>
+            <img src="assets/img/common/arrow.svg" alt="" />
+          </a>
+        </div>
+        <img
+        src="assets/img/address/address_mockup.png"
+        alt=""
+        class="mockUp"
+        />
+        <div class="overView">
+          <h3>OVERVIEW</h3>
+          <div class="overView_txt">
+            <div>
+              <h4>誰でも使えるシンプル住所検索</h4>
+              <p>
+                住所検索のWebアプリケーションです。<br />誰もが簡単に利用できるように、簡単な操作で知りたい情報が得られる体験を実感させました。
+              </p>
+            </div>
+            <ul>
+              <li>
+                担当範囲：ディレクション・デザイン・コーディング
+              </li>
+              <li>
+                使用ツール：HTML・CSS・JavaScript・React・TypeScript・Figma
+              </li>
+              <li>制作期間：1週間</li>
+            </ul>
+          </div>
+        </div>
+        <div class="process">
+          <h3>PURPOSE/TARGET</h3>
+          <div class="process_list">
+            <div class="process_item">
+              <h4>目的</h4>
+              <p>郵便番号から地名の検索</p>
+            </div>
+            <div class="process_item">
+              <h4>ターゲット</h4>
+              <p>郵便番号から地名や所在地を確認したい人(年齢・性別不問)</p>
+            </div>
+        </div>
+        <div class="points">
+          <h3>POINTS</h3>
+          <div class="points_list">
+            <div class="points_item">
+              <h4>React・TypeScriptを用いたアプリ設計</h4>
+              <p>
+                本作品では住所入力だけで町名までの情報と地図表示するように設計しました。設計する上でデータ型を明示することで意図しない値の混入やバグを防ぐためReactとTypeScriptを組み合わせました。
+              </p>
+            </div>
+            <div class="points_item">
+              <h4>郵便番号APIとの連携</h4>
+              <p>入力されたデータをもとに情報を出力させるため、郵便番号APIを連携させました。また、入力された番号から地図情報を正確に表示できるよう、リンクの調整を行いました。</p>              
+            </div>
+            <div class="points_item">
+              <h4>デザイン面</h4>
+              <p>オレンジ系とーを用いることで郵便のイメージをデザインしました。また、コンテンツ枠に丸みを付け、背景に手紙が描かれている落ち着いた画像を用いることで、優しい印象を与えさせました。</p>
+              <div class="process_item colorFont">
+                <div class="color">
+                  <p class="p_bold p_bold--16px">配色</p>
+                  <div class="color_list">
+                    <div class="color_item color_item--base"></div>
+                    <div class="color_item color_item--main"></div>
+                    <div class="color_item color_item--accent"></div>
+                  </div>
+                </div>
+                <div class="font">
+                  <p class="p_bold p_bold--16px">フォント</p>
+                  <ul>
+                    <li>Noto Sans JP</li>
+                    <li>Stardos Stencil</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="points_img">
+                <img src="assets/img/address/address-design.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <nav class="pageNav">
+          <button onclick="goPrev()" id="prevBtn">
+            <img src="assets/img/common/arrow.svg" alt="" />前の作品
+          </button>
+          <a href="index.html#works">作品一覧</a>
+          <button onclick="goNext()" id="nextBtn">
+            次の作品
+            <img src="assets/img/common/arrow.svg" alt="" />
+          </button>
+        </nav>
+      </div>
+    </main>
+    <footer>
+      <p class="footerName">SUGURU MIYAKAWA</p>
+      <div>
+        <p>お問い合わせはこちらまで！</p>
+        <a href="contact.html" class="btn">
+          <p>お問い合わせをする</p>
+          <img src="assets/img/common/arrow.svg" alt="" />
+        </a>
+      </div>
+      <small>&copy;2025 SUGURU MIYAKAWA</small>
+    </footer>
+    <script src="assets/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SUGURU MIYAKAWA MY PORTFOLIO</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Zen+Maru+Gothic&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/destyle.css" />
+    <link rel="stylesheet" href="assets/css/common.css" />
+    <link rel="stylesheet" href="assets/css/es-batting(singleBase).css" />
+    <link rel="stylesheet" href="assets/css/shopping.css" />
+  </head>
+  <body>
+    <header>
+      <div class="headerMain">
+        <h1>Suguru's Portfolio</h1>
+        <div class="header_menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+      <nav class="menuNav">
+        <a href="index.html">TOP</a>
+        <a href="index.html#profile">PROFILE</a>
+        <a href="index.html#works">WORKS</a>
+        <a href="contact.html">CONTACT</a>
+      </nav>
+    </header>
+    <main>
+      <div id="single">
+        <h2>
+          <span class="h2_20px">【自主制作】</span><br />買い物リストアプリ
+        </h2>
+        <div class="worksBtn">
+          <a href="https://shopping-list-beta-eight.vercel.app/" class="btn">
+            <div class="btn_txt">
+              <p>Webページ</p>
+            </div>
+            <img src="assets/img/common/arrow.svg" alt="" />
+          </a>
+          <a href="https://github.com/sukmiyakawa/shopping-list" class="btn">
+            <p>Github</p>
+            <img src="assets/img/common/arrow.svg" alt="" />
+          </a>
+        </div>
+        <img
+        src="assets/img/shopping/shopping_mockup.png"
+        alt=""
+        class="mockUp"
+        />
+        <div class="overView">
+          <h3>OVERVIEW</h3>
+          <div class="overView_txt">
+            <div>
+              <h4>誰でも使える買い物がワクワクするような買い物リスト</h4>
+              <p>
+                買い物リストのWebアプリケーションです。<br />誰もが簡単に利用できるように、簡単な操作で楽しい買い物を一助となることを意識して設計しました。
+              </p>
+            </div>
+            <ul>
+              <li>
+                担当範囲：ディレクション・デザイン・コーディング
+              </li>
+              <li>
+                使用ツール：HTML・CSS・JavaScript・vue.js・Figma
+              </li>
+              <li>制作期間：1ヶ月</li>
+            </ul>
+          </div>
+        </div>
+        <div class="process">
+          <h3>PURPOSE/TARGET</h3>
+          <div class="process_list">
+            <div class="process_item">
+              <h4>目的</h4>
+              <p>買い物のリスト化/ユーザーが何を買うのかを整理させる</p>
+            </div>
+            <div class="process_item">
+              <h4>ターゲット</h4>
+              <p>購入済み/未購入のものを把握したい人(年齢・性別不問)</p>
+            </div>
+        </div>
+        <div class="points">
+          <h3>POINTS</h3>
+          <div class="points_list">
+            <div class="points_item">
+              <h4>vue.jsを用いたアプリ設計</h4>
+              <p>
+                直感的に記述できる構文で、効率よくコンポーネントを開発するためにvue.jsを用いて設計しました。また、登録後もステータスの完了表示やリスト削除などの操作が必要であると考えられます。そのため、編集・完了・削除ボタンを設置し登録した後も自由自在に操作ができるように実装しました。
+              </p>
+            </div>
+            <div class="points_item">
+              <h4>デザイン面</h4>
+              <p>見出しに筆記体フォントを用いることでモダンな印象を与えました。また、背景に買い物を楽しんでいる商店街の画像を用いることで、ワクワク感を与えさせました。</p>
+              <div class="process_item colorFont">
+                <div class="color">
+                  <p class="p_bold p_bold--16px">配色</p>
+                  <div class="color_list">
+                    <div class="color_item color_item--base"></div>
+                    <div class="color_item color_item--main"></div>
+                    <div class="color_item color_item--add"></div>
+                    <div class="color_item color_item--fin"></div>
+                    <div class="color_item color_item--show"></div>
+                  </div>
+                </div>
+                <div class="font">
+                  <p class="p_bold p_bold--16px">フォント</p>
+                  <ul>
+                    <li>Zen Maru Gothic</li>
+                    <li>Pacifico</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="points_img">
+                <img src="assets/img/shopping/shopping-design.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <nav class="pageNav">
+          <button onclick="goPrev()" id="prevBtn">
+            <img src="assets/img/common/arrow.svg" alt="" />前の作品
+          </button>
+          <a href="index.html#works">作品一覧</a>
+          <button onclick="goNext()" id="nextBtn">
+            次の作品
+            <img src="assets/img/common/arrow.svg" alt="" />
+          </button>
+        </nav>
+      </div>
+    </main>
+    <footer>
+      <p class="footerName">SUGURU MIYAKAWA</p>
+      <div>
+        <p>お問い合わせはこちらまで！</p>
+        <a href="contact.html" class="btn">
+          <p>お問い合わせをする</p>
+          <img src="assets/img/common/arrow.svg" alt="" />
+        </a>
+      </div>
+      <small>&copy;2025 SUGURU MIYAKAWA</small>
+    </footer>
+    <script src="assets/main.js"></script>
+  </body>
+</html>

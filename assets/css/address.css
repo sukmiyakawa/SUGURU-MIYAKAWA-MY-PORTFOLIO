@@ -1,0 +1,24 @@
+@charset "UTF-8";
+.color_item--base {
+  background-color: #fff;
+}
+.color_item--main {
+  background-color: #ff9900;
+}
+.color_item--accent {
+  background-color: #87ceeb;
+}
+.points_img img {
+  width: 450px;
+}
+@media screen and (max-width: 1023px) {
+  .points_img img {
+    width: 335px;
+    aspect-ratio: 450/300;
+  }
+  @media screen and (max-width: 767px) {
+    .points_img img {
+      width: 315px;
+    }
+  }
+}

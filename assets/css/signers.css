@@ -1,0 +1,54 @@
+@charset "UTF-8";
+.solution .process_item:nth-of-type(2) ul li {
+  list-style: none;
+}
+.color_item--base {
+  background-color: #fff;
+}
+.color_item--main {
+  background-color: #e2edfc;
+}
+.color_item--semiMain {
+  background-color: #def2ff;
+}
+.color_item--accent {
+  background-color: #ee5400;
+}
+.points_img {
+  align-items: center;
+}
+.points_item:last-of-type .points_img {
+  padding-left: 80px;
+  gap: 50px;
+}
+.points_img img {
+  width: 450px;
+  aspect-ratio: 450/253;
+  border: 1px solid #d9d9d9;
+}
+.points_img .award_sp {
+  width: 300px;
+  aspect-ratio: 350/850;
+}
+.points_img .award_pc {
+  height: 300px;
+}
+@media screen and (max-width: 1023px) {
+  .points_img img {
+    width: 335px;
+  }
+  .points_img .award_sp {
+    width: 150px;
+  }
+  .points_img .award_pc {
+    height: 250px;
+  }
+  @media screen and (max-width: 767px) {
+    .points_img img {
+      width: 315px;
+    }
+    .points_item:last-of-type .points_img {
+      padding-left: 0;
+    }
+  }
+}

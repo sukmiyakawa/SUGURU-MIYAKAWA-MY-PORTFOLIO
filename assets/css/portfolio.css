@@ -1,0 +1,35 @@
+.color_item--base {
+  background-color: #fcfcfc;
+}
+.color_item--main {
+  background-color: #f66904;
+}
+.color_item--accent {
+  background-color: #1d3989;
+}
+.points_img {
+  align-items: center;
+}
+.points_img img {
+  width: 450px;
+  aspect-ratio: 450/253;
+  border: 1px solid #d9d9d9;
+}
+.points_item:nth-of-type(2) img {
+  width: 450px;
+  aspect-ratio: 1000/2552;
+  margin: 0 auto;
+  border: 1px solid #d9d9d9;
+}
+@media screen and (max-width: 1023px) {
+  .points_img img,
+  .points_item:nth-of-type(2) img {
+    width: 335px;
+  }
+  @media screen and (max-width: 767px) {
+    .points_img img,
+    .points_item:nth-of-type(2) img {
+      width: 315px;
+    }
+  }
+}
