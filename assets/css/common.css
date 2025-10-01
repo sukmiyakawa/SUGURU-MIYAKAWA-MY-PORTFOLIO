@@ -134,6 +134,7 @@ ul li {
     .btn {
       width: 210px;
       height: 90px;
+      margin: 0 auto;
     }
     .tab {
       display: none;

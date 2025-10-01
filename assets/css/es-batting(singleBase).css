@@ -46,8 +46,15 @@ h2 {
 .worksBtn {
   display: flex;
   justify-content: space-evenly;
-  align-items: center;
   margin: 50px 0;
+}
+.worksBtn_pass {
+  margin: 10px auto 0;
+  width: 210px;
+}
+.btn--tab img {
+  width: 20px;
+  aspect-ratio: 1/1;
 }
 .btn_txt p:not(:nth-of-type(1)) {
   font-size: 1.4rem;
