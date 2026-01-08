@@ -109,7 +109,7 @@
 
 /* profile */
 #profile {
-  margin-top: 764px;
+  margin-top: 650px;
   display: flex;
   flex-direction: column;
   gap: 50px;
@@ -120,7 +120,7 @@
   }
   @media screen and (max-width: 767px) {
     #profile {
-      margin-top: 876px;
+      margin-top: 930px;
     }
   }
 }
