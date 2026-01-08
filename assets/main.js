@@ -24,6 +24,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const barometer70 = document.querySelectorAll(".barometer--70");
   const barometer60 = document.querySelectorAll(".barometer--60");
   const barometer50 = document.querySelectorAll(".barometer--50");
+  const barometer25 = document.querySelectorAll(".barometer--25");
   if (displayWidth < 768) {
     window.addEventListener("scroll", () => {
       const scrollPos = window.scrollY;
@@ -32,6 +33,7 @@ document.addEventListener("DOMContentLoaded", () => {
         barometer70.forEach((el) => el.classList.add("active"));
         barometer60.forEach((el) => el.classList.add("active"));
         barometer50.forEach((el) => el.classList.add("active"));
+        barometer25.forEach((el) => el.classList.add("active"));
       }
     });
   } else if (displayWidth >= 768 && displayWidth < 1024) {
@@ -42,6 +44,7 @@ document.addEventListener("DOMContentLoaded", () => {
         barometer70.forEach((el) => el.classList.add("active"));
         barometer60.forEach((el) => el.classList.add("active"));
         barometer50.forEach((el) => el.classList.add("active"));
+        barometer25.forEach((el) => el.classList.add("active"));
       }
     });
   } else {
@@ -52,6 +55,7 @@ document.addEventListener("DOMContentLoaded", () => {
         barometer70.forEach((el) => el.classList.add("active"));
         barometer60.forEach((el) => el.classList.add("active"));
         barometer50.forEach((el) => el.classList.add("active"));
+        barometer25.forEach((el) => el.classList.add("active"));
       }
     });
   }

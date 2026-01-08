@@ -305,6 +305,11 @@
   animation-duration: 1s;
   animation-fill-mode: forwards;
 }
+.barometer--25.active {
+  animation: barometer--25;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
 @keyframes barometer--80 {
   0% {
     width: 0;
@@ -335,6 +340,14 @@
   }
   100% {
     width: 50%;
+  }
+}
+@keyframes barometer--25 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 25%;
   }
 }
 @media screen and (max-width: 1023px) {
