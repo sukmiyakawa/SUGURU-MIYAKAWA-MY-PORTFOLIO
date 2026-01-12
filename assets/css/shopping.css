@@ -14,7 +14,7 @@
 .color_item--show {
   background-color: #7fffd4;
 }
-.points_img img {
+.points_img img, .points_item img {
   width: 450px;
 }
 @media screen and (max-width: 1023px) {
@@ -23,7 +23,7 @@
     aspect-ratio: 450/300;
   }
   @media screen and (max-width: 767px) {
-    .points_img img {
+    .points_img img, .points_item img {
       width: 315px;
     }
   }
