@@ -17,6 +17,10 @@
 .points_img img, .points_item img {
   width: 450px;
 }
+.points_item img{
+  margin: 0 auto;
+}
+
 @media screen and (max-width: 1023px) {
   .points_img img {
     width: 335px;
